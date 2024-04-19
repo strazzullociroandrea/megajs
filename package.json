@@ -1,0 +1,20 @@
+{
+  "name": "megajs",
+  "version": "1.0.0",
+  "description": "inserimento e recupero file da MEGAJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "megajs": "^1.2.0",
+    "path": "^0.12.7"
+  },
+  "type": "module"
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST MEGA</title>
+</head>
+<body>
+    <div>
+        <p>Carica il tuo file su MEGAJS</p>
+        <form onsubmit="return false">
+            <input type="file" id="file"/>
+            <input type="submit" value="Invia" id="invia"/>
+        </form>
+        <br><br>
+        Risultato caricamento:<p id="divResAdd"> </p><p>Non viene fatto il controllo di omonimia tra file</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <p>Scarica il tuo file da MEGAJS</p>
+        <form onsubmit="return false">
+            <input type="text" id="nameFile"/>
+            <input type="submit" value="Invia" id="view"/>
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p>Link utili:</p>
+    <code>https://mega.js.org/</code><br>
+    <code>https://mega.nz/</code>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
