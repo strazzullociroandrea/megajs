@@ -1,3 +1,6 @@
+/**
+ * Sull'account di mega è obbligatorio creare una cartella o file altrimenti il find va in errore
+ */
 //da es6 a commonjs
 import { createRequire } from "module";
 import { Storage, File } from "megajs";
